@@ -1,0 +1,23 @@
+# Never publish outputs or credentials from password audits
+*.pot
+john.pot
+john.rec
+*.rec
+*hash*.txt
+*password*.txt
+*wordlist*.txt
+*.key
+*.pem
+.env
+.env.*
+__pycache__/
+.DS_Store
+Thumbs.db
+# Raw/copyrighted lab materials are intentionally excluded
+lab-files/
+training-pdfs/
+private-evidence/
+*.pdf
+# Common editor/OS artifacts
+.vscode/
+.idea/
